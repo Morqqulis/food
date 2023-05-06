@@ -1,0 +1,42 @@
+.form {
+  padding: 150px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 25px;
+  background-color: #d6d6d6;
+  text-align: center;
+  font-size: 25px;
+  max-width: 350px;
+}
+
+.form__label {
+  color: gold;
+  width: 100%;
+}
+
+.form__input {
+  font-size: 20px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.form__button {
+  background-color: rgb(8, 89, 196);
+  width: 100%;
+  padding: 25px 35px;
+  color: #fff;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  transition: all 0.1s ease 0s;
+  cursor: pointer;
+ box-shadow: 0 15px 5px rgba(0, 0, 0, 0.3);
+ border-radius: 15px;
+ 
+}
+
+.form__button:active {
+  transform: scale(0.9);
+}
